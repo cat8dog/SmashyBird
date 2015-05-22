@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28AF73CC1B0CF3C500CC1DB0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AF73C71B0CF3C500CC1DB0 /* bg.png */; };
+		28AF73CD1B0CF3C500CC1DB0 /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AF73C81B0CF3C500CC1DB0 /* flappy1.png */; };
+		28AF73CE1B0CF3C500CC1DB0 /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AF73C91B0CF3C500CC1DB0 /* flappy2.png */; };
+		28AF73CF1B0CF3C500CC1DB0 /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AF73CA1B0CF3C500CC1DB0 /* pipe1.png */; };
+		28AF73D01B0CF3C500CC1DB0 /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28AF73CB1B0CF3C500CC1DB0 /* pipe2.png */; };
 		28E302D91B0CCE6C0032C8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E302D81B0CCE6C0032C8EE /* AppDelegate.swift */; };
 		28E302DB1B0CCE6C0032C8EE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 28E302DA1B0CCE6C0032C8EE /* GameScene.sks */; };
 		28E302DD1B0CCE6C0032C8EE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E302DC1B0CCE6C0032C8EE /* GameScene.swift */; };
@@ -28,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28AF73C71B0CF3C500CC1DB0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		28AF73C81B0CF3C500CC1DB0 /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy1.png; sourceTree = "<group>"; };
+		28AF73C91B0CF3C500CC1DB0 /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy2.png; sourceTree = "<group>"; };
+		28AF73CA1B0CF3C500CC1DB0 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
+		28AF73CB1B0CF3C500CC1DB0 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
 		28E302D31B0CCE6C0032C8EE /* Flappy Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E302D71B0CCE6C0032C8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E302D81B0CCE6C0032C8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +45,7 @@
 		28E302DC1B0CCE6C0032C8EE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		28E302DE1B0CCE6C0032C8EE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		28E302E11B0CCE6C0032C8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28E302E31B0CCE6C0032C8EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28E302E31B0CCE6C0032C8EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Flappy Demo/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		28E302E61B0CCE6C0032C8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		28E302EC1B0CCE6D0032C8EE /* Flappy DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flappy DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E302F11B0CCE6D0032C8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28AF73C61B0CF3C500CC1DB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				28AF73C71B0CF3C500CC1DB0 /* bg.png */,
+				28AF73C81B0CF3C500CC1DB0 /* flappy1.png */,
+				28AF73C91B0CF3C500CC1DB0 /* flappy2.png */,
+				28AF73CA1B0CF3C500CC1DB0 /* pipe1.png */,
+				28AF73CB1B0CF3C500CC1DB0 /* pipe2.png */,
+			);
+			name = Images;
+			path = "../../../Flappy Demo/Images";
+			sourceTree = "<group>";
+		};
 		28E302CA1B0CCE6C0032C8EE = {
 			isa = PBXGroup;
 			children = (
@@ -81,12 +104,12 @@
 		28E302D51B0CCE6C0032C8EE /* Flappy Demo */ = {
 			isa = PBXGroup;
 			children = (
+				28AF73C61B0CF3C500CC1DB0 /* Images */,
 				28E302D81B0CCE6C0032C8EE /* AppDelegate.swift */,
 				28E302DA1B0CCE6C0032C8EE /* GameScene.sks */,
 				28E302DC1B0CCE6C0032C8EE /* GameScene.swift */,
 				28E302DE1B0CCE6C0032C8EE /* GameViewController.swift */,
 				28E302E01B0CCE6C0032C8EE /* Main.storyboard */,
-				28E302E31B0CCE6C0032C8EE /* Images.xcassets */,
 				28E302E51B0CCE6C0032C8EE /* LaunchScreen.xib */,
 				28E302D61B0CCE6C0032C8EE /* Supporting Files */,
 			);
@@ -96,6 +119,7 @@
 		28E302D61B0CCE6C0032C8EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28E302E31B0CCE6C0032C8EE /* Images.xcassets */,
 				28E302D71B0CCE6C0032C8EE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,10 +222,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AF73CE1B0CF3C500CC1DB0 /* flappy2.png in Resources */,
+				28AF73CC1B0CF3C500CC1DB0 /* bg.png in Resources */,
 				28E302E71B0CCE6C0032C8EE /* LaunchScreen.xib in Resources */,
+				28AF73CF1B0CF3C500CC1DB0 /* pipe1.png in Resources */,
 				28E302E41B0CCE6C0032C8EE /* Images.xcassets in Resources */,
+				28AF73D01B0CF3C500CC1DB0 /* pipe2.png in Resources */,
 				28E302DB1B0CCE6C0032C8EE /* GameScene.sks in Resources */,
 				28E302E21B0CCE6C0032C8EE /* Main.storyboard in Resources */,
+				28AF73CD1B0CF3C500CC1DB0 /* flappy1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +446,7 @@
 				28E302F81B0CCE6D0032C8EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28E302F91B0CCE6D0032C8EE /* Build configuration list for PBXNativeTarget "Flappy DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +455,7 @@
 				28E302FB1B0CCE6D0032C8EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
